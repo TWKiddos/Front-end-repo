@@ -1,0 +1,10 @@
+[XXXX] commit-message
+
+# #[XXXX] refers to the card number
+
+# #If your pairing with someone, then mention co-author or else remove it.
+
+Co-authored-by: Co-author-name <emailId>
+
+
+# #If there are more than two persons working on this commit, add other authors same as above.
