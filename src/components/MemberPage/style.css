@@ -1,0 +1,50 @@
+.details {
+    box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.20);
+    margin: 2%;
+    border-radius: 10px;
+    overflow: auto;
+    font-family: "Open Sans";
+}
+
+.memberDetails {
+    text-align: left;
+    font-size: 16px;
+    position: relative;
+    left: 1.7%;
+    top: -20px;
+    border-collapse: collapse;
+}
+
+.value {
+    color: rgba(0, 0, 0, 0.29);
+    padding-left: 220px;
+}
+
+.secondSection {
+    padding-left: 250px;
+}
+
+.heading {
+    font-weight: lighter;
+    position: relative;
+    left: -42%;
+}
+
+.editDetails {
+    color: #0280FF;
+    text-decoration: none;
+    position: relative;
+    right: -44%;
+    top: -44px;
+    font-size: 16px;
+}
+
+tr.line {
+    border-top: 1px solid rgba(0, 0, 0, 0.20);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+td {
+    padding: 6px 15px;
+}
+
