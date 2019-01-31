@@ -13,20 +13,24 @@
     overflow: auto;
 }
 
-.logout {
+button {
     font-family: "Open Sans";
     background-color: #FADADA;
     border-radius: 5px;
     font-size: 15px;
     padding: 4px 12px;
-    position: relative;
-    right: -94.2%;
-    bottom: 10px;
     border: 0px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
-.logout:hover {
-    background-color: #DEAAAA;
+.logout {
+  position: relative;
+  right: -94.2%;
+  bottom: 10px;
+}
+
+button:hover {
+    background-color: #F45C5C;
+    color: white;
     box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.32);
 }

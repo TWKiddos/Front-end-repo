@@ -8,9 +8,7 @@ export default class AppLogo extends Component {
         <h1 className="title">
           Blood Glory
         </h1>
-        <button className="logout">
-          Logout
-        </button>
+        <button class="logout">Logout</button>
       </header>
     )
   }
