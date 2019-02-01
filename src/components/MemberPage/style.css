@@ -1,0 +1,125 @@
+table {
+  height: auto;
+  width: 96%;
+}
+
+.donor, .recepient {
+  width: 20%;
+}
+
+.details {
+  box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.20);
+  margin: 1%;
+  padding: 5px;
+  border-radius: 10px;
+  overflow: visible;
+  font-family: "Open Sans";
+}
+
+.memberDetails {
+  text-align: left;
+  font-size: 16px;
+  position: relative;
+  left: 1.7%;
+  top: -20px;
+  border-collapse: collapse;
+}
+
+.donarDetails {
+  display: inline;
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+  position: relative;
+  right: 3%;
+  top: -30px;
+  border-collapse: collapse;
+}
+
+.recepientDetails {
+  display: inline;
+  position: relative;
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+  top: -30px;
+  right: -7%;
+  border-collapse: collapse;
+}
+
+.value {
+  color: rgba(0, 0, 0, 0.29);
+}
+
+.secondSection {
+  padding-left: 250px;
+}
+
+.heading {
+  font-weight: lighter;
+  position: relative;
+  left: -42%;
+}
+
+.editDetails {
+  color: #0280FF;
+  text-decoration: none;
+  position: relative;
+  right: -44%;
+  top: -44px;
+  font-size: 16px;
+}
+
+.edit {
+  right: -38%;
+}
+
+tr.line {
+  border-top: 1px solid rgba(0, 0, 0, 0.20);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+td {
+  height: 40px;
+  width: auto;
+  overflow: visible;
+}
+
+th {
+  padding-right: 40px;
+}
+
+.light {
+  font-weight: lighter;
+}
+
+.secondHeading {
+  position: relative;
+  left: -27%;
+}
+
+.memberPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.subModules {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.recepientModule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button[type="button"] {
+  padding: 8px 50px;
+  font-size: 16px;
+  position: relative;
+  bottom: 10px;
+}

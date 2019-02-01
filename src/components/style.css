@@ -1,0 +1,36 @@
+.title {
+    font-family: Avenir;
+    font-weight: normal;
+    font-size: 60px;
+    color: white;
+    padding-top: 20px;
+    margin: 0px 0px 0px 30px;
+}
+
+.titleBar {
+    background-color: #F45C5C;
+    text-align: left;
+    overflow: auto;
+}
+
+button {
+    font-family: "Open Sans";
+    background-color: #FADADA;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 4px 12px;
+    border: 0px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.logout {
+  position: relative;
+  right: -94.2%;
+  bottom: 10px;
+}
+
+button:hover {
+    background-color: #F45C5C;
+    color: white;
+    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.32);
+}
